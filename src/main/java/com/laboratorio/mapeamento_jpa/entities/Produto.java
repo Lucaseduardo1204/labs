@@ -43,4 +43,15 @@ public class Produto {
     // aqui continuaremos com métodos de classe normalmente
 
 
+    public String getCodigoDeBarras() {
+        return codigoDeBarras;
+    }
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public BigDecimal getPreco() {
+        return preco;
+    }
 }

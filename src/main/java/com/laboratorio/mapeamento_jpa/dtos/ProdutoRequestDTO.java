@@ -4,7 +4,7 @@ import jakarta.validation.constraints.*;
 
 import java.math.BigDecimal;
 
-public record ProdutoRequestDTOnovo(
+public record ProdutoRequestDTO(
         @NotBlank
         @Size(min = 13, max = 13)
         String codigoDeBarras,
