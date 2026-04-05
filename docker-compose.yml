@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres-lab
+    environment:
+      POSTGRES_USER: banco
+      POSTGRES_PASSWORD: senhabanco
+      POSTGRES_DB: db_laboratorio
+    ports:
+      - "5432:5432"
